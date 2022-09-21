@@ -30,6 +30,7 @@
     border-radius: 11px;
     position: relative;
     z-index: 5;
+    transition: all 0.3s ease 0s;
     &:not(:first-child) {
       margin: 0 0 0 65px;
     }
@@ -53,6 +54,10 @@
       display: flex;
       justify-content: center;
       align-items: center;
+    }
+    &:hover {
+      background: #717cff;
+      color: #fff;
     }
   }
 
