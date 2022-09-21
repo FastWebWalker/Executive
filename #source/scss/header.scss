@@ -54,10 +54,12 @@
       display: flex;
       justify-content: center;
       align-items: center;
+      &:hover {
+        color: #fff;
+      }
     }
     &:hover {
       background: #717cff;
-      color: #fff;
     }
   }
 
