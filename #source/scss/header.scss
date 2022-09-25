@@ -6,6 +6,9 @@
   z-index: 50;
   background-color: #fff;
   &__container {
+    @media (max-width: 1350px) {
+      max-width: none;
+    }
   }
 
   &__body {
